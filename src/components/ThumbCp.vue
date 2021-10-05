@@ -10,7 +10,7 @@ export default {
   props: ['food'],
   methods: {
     onChange(e) {
-      this.$emit('@change', { src: e.target.src, alt: e.target.title });
+      this.$emit('@change', { src: e.target.src, title: e.target.alt });
     },
   },
 };
